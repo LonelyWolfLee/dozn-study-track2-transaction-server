@@ -6,7 +6,7 @@ import (
 	"net"
 )
 
-func handler(conn net.Conn) {
+func Handler(conn net.Conn) {
 	recv := make([]byte, 4096)
 
 	for {
